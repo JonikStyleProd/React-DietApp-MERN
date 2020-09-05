@@ -6,17 +6,17 @@ const MenuItemGroup = Menu.ItemGroup;
 function LeftMenu(props) {
   return (
     <Menu mode={props.mode}>
-    <Menu.Item key="mail">
-      <a href="/">Home</a>
+    <Menu.Item style={{ backgroundColor: '#10111d' }} key="mail">
+      <a style={{color: 'white'}} href="/">Home</a>
     </Menu.Item>
-    <SubMenu title={<span>Blogs</span>}>
-      <MenuItemGroup title="Item 1">
-        <Menu.Item key="setting:1">Option 1</Menu.Item>
-        <Menu.Item key="setting:2">Option 2</Menu.Item>
+    <SubMenu  style={{ backgroundColor: '#10111d', color: 'white'}} title={<span>More</span>}>
+      <MenuItemGroup style={{ backgroundColor: '#10111d', color: 'white', borderRadius: '4px'}} title={<span style={{color: 'white'}}>For Diet</span>}>
+        <Menu.Item key="setting:1">Diet Calculator</Menu.Item>
+        <Menu.Item key="setting:2">Diets</Menu.Item>
       </MenuItemGroup>
-      <MenuItemGroup title="Item 2">
-        <Menu.Item key="setting:3">Option 3</Menu.Item>
-        <Menu.Item key="setting:4">Option 4</Menu.Item>
+      <MenuItemGroup style={{ backgroundColor: '#10111d', color: 'white', borderRadius: '4px'}} title={<span style={{color: 'white'}}>For Sport</span>}>
+        <Menu.Item key="setting:3">Sport Exercises</Menu.Item>
+        <Menu.Item key="setting:4">Forum</Menu.Item>
       </MenuItemGroup>
     </SubMenu>
   </Menu>

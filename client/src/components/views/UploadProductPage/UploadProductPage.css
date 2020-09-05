@@ -1,0 +1,24 @@
+.selectMeals {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.nameFood {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.discription {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.amount {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+label{
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 1px 0px white;
+}

@@ -1,0 +1,12 @@
+.slider{
+    width: 1100px auto;
+    height: 700px;
+    border: 2px inset black;
+    margin: 2px;
+
+}
+.slider img {
+    width: 700px;
+    height: 300px;
+    
+}

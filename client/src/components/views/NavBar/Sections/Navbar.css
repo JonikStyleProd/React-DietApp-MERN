@@ -2,21 +2,31 @@
 
 .menu {
   padding: 0 20px;
-  border-bottom: solid 1px #e8e8e8;
-  overflow: auto;
-  box-shadow: 0 0 30px #f3f1f1;
-  background-color: white;
+  border-bottom: solid 1px #10111d;
+  overflow: inherit;
+  box-shadow: 0 0 105px #10111d;
+  background-color: #10111d;
+
 }
+img {
+  width: 38px;
+  height: auto;
+  margin-top: 4px;
+  height: auto;
+  margin-bottom: 2px;
+} 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 
 .menu__logo {
-  width: 150px;
+  display: block;
+margin-bottom: 2px;
   float: left;
 }
 
 .menu__logo a {
-  display: inline-block;
-  font-size: 20px;
-  padding: 19px 20px;
+
+  margin-bottom: 2px;
+
 }
 
 .menu__container .ant-menu-item {
@@ -50,7 +60,7 @@
   padding: 6px;
   margin-top: 8px;
   display: none !important; /* use of important to overwrite ant-btn */
-  background: #3e91f7;
+  background: #000000;
 }
 
 .menu_drawer .ant-drawer-body {
@@ -74,6 +84,7 @@
 
   .menu__logo a {
     margin-left: -20px;
+    margin-bottom: 2px;
   }
 
   .menu__container .ant-menu-item,
@@ -83,5 +94,6 @@
 
   .menu__logo a {
     padding: 10px 20px;
+    
   }
 }
